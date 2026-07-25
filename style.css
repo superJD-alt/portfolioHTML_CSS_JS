@@ -171,11 +171,12 @@ section{
     border-radius: 20rem;
 }
 
-.section__pic-container{
+/* Contenedor de la imagen en PROFILE */
+#profile .section__pic-container{
     display: flex;
-    height: 400px;
-    width:  400px;
-    margin: auto 5;
+    height: 600px;
+    width: 600px;
+    margin: auto 5rem; 
     border-radius: 2rem;
 }
 
@@ -311,10 +312,12 @@ section{
     height: 80%;
 }
 
-.section__pic-container {
-    height: 400px;
-    width: 400px;
-    margin: auto 0;
+#about .section__pic-container {
+    display: flex;
+    height: 500px;
+    width: 500px;
+    margin: auto 4rem; 
+    border-radius: 2rem;
 }
 
 /*EXPIRIENCE SECTION*/
