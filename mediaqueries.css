@@ -41,9 +41,10 @@
     }
     .about-containers{
         margin-top: 0;
-    }
+    }   
+}
 
-    @media screen and (max-width: 600px){
+ @media screen and (max-width: 600px){
         #contact,
         footer{
             height: 40vh;
@@ -97,4 +98,3 @@
             text-align: justify;
         }
     }
-}
