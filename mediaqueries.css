@@ -87,9 +87,9 @@
             text-align: center;
         }
         .section__pic-container{
-            width: 40vw;
-            height: 40vw;
-            margin: 0 auto 2rem;
+            width: auto;
+            height: 46vw;
+            margin: 0 auto;
             display: flex;
             align-items: center;
             justify-content: center;
