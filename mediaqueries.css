@@ -36,76 +36,86 @@
         margin: 5% 1.5rem;
     }
     #profile .section__pic-container,
-        #about .section__pic-container{
+    #about .section__pic-container{
         width: 275px;
         height: 275px;
         margin: 0 auto 2rem;
+        overflow: hidden;
+    }
+    .about-picpro,
+    .about-pic{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
     }
     .about-containers{
         margin-top: 0;
     }   
 }
 
- @media screen and (max-width: 600px){
-        #contact,
-        footer{
-            min-height: 40vh;
-            height: auto;
-        }
-        #profile{
-            min-height: 83vh;
-            height: auto;
-            margin-bottom: 6rem;
-        }
-        article{
-            font-size: 1rem;
-        }
-        footer nav {
-            height: fit-content;
-            margin-bottom: 2rem;
-        }
-        .about-containers,
-        .contact-info-upper-container,
-        .btn-container{
-            flex-wrap: wrap;
-        }
-        .contact-info-container{
-            margin: 0;
-        }
-        .contact-info-containerp,
-        .nav-links li a{
-            font-size: 1rem;
-        }
-        .expirience-sub-title{
-            font-size: 1.25rem;
-        }
-        .logo{
-            font-size: 1.5rem;
-        }
-        .nav-links{
-            flex-direction: column;
-            gap: 0.5rem;
-            text-align: center;
-        }
-        #profile .section__pic-container,
-#about .section__pic-container{
-    width: auto;
-    height: 46vw;
-    margin: 0 auto;
-}
-        .about-pic{
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            object-position: center;
-        }
-        .section__text__p2{
-            font-size: 1.25rem;
-        }
-        .title{
-            font-size: 2rem;
-        }
-        .text-container{
-            text-align: justify;
-        }
+@media screen and (max-width: 600px){
+    #contact,
+    footer{
+        min-height: 40vh;
+        height: auto;
     }
+    #profile{
+        min-height: 83vh;
+        height: auto;
+        margin-bottom: 6rem;
+    }
+    article{
+        font-size: 1rem;
+    }
+    footer nav {
+        height: fit-content;
+        margin-bottom: 2rem;
+    }
+    .about-containers,
+    .contact-info-upper-container,
+    .btn-container{
+        flex-wrap: wrap;
+    }
+    .contact-info-container{
+        margin: 0;
+    }
+    .contact-info-containerp,
+    .nav-links li a{
+        font-size: 1rem;
+    }
+    .expirience-sub-title{
+        font-size: 1.25rem;
+    }
+    .logo{
+        font-size: 1.5rem;
+    }
+    .nav-links{
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+    #profile .section__pic-container,
+    #about .section__pic-container{
+        width: auto;
+        height: 46vw;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .about-picpro,
+    .about-pic{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+    .section__text__p2{
+        font-size: 1.25rem;
+    }
+    .title{
+        font-size: 2rem;
+    }
+    .text-container{
+        text-align: justify;
+    }
+}
